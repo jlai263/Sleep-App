@@ -72,7 +72,7 @@ Navigate to ...\code\build\Desktop_Qt_6_8_0_MinGW_64_bit-Release\release folder.
 
 ## Troubleshooting and Packaging Instructions
 
-If the `Sleep Better App.exe` file doesn't work after moving it to a different folder or computer, follow these steps to resolve the issue.
+If the exe file doesn't work after moving it to a different folder or computer, follow these steps to resolve the issue.
 
 ### Problem: Missing Dependencies
 The application requires additional libraries (DLLs) from Qt to run. These dependencies are not automatically included with the `.exe` file. 
