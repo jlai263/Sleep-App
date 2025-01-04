@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+
+  <property name="windowTitle">
+   <string>Sleep Better App</string>
+  </property>
+
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayoutMain">
+
+    <item>
+     <widget class="QLabel" name="lblTitle">
+      <property name="text">
+       <string>Sleep Better App</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+        font-size: 24px;
+        font-weight: bold;
+        color: #3c3f41;
+       </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frameMain">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayoutFrame">
+
+       <!-- The table widget (4 columns used in code) -->
+       <item>
+        <widget class="QTableWidget" name="tblSleepSessions">
+         <property name="columnCount">
+          <number>2</number>
+         </property>
+         <property name="rowCount">
+          <number>0</number>
+         </property>
+        </widget>
+       </item>
+
+       <!-- A horizontal layout for the existing buttons -->
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayoutButtons">
+         <item>
+          <widget class="QPushButton" name="btnAddSleepSession">
+           <property name="text">
+            <string>Add Sleep Session</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnAnalyzeSleep">
+           <property name="text">
+            <string>Analyze Sleep</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnSaveData">
+           <property name="text">
+            <string>Save Data</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnLoadData">
+           <property name="text">
+            <string>Load Data</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnManageHabits">
+           <property name="text">
+            <string>Manage Habits</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnSmartAlarm">
+           <property name="text">
+            <string>Smart Alarm</string>
+           </property>
+          </widget>
+         </item>
+
+        </layout>
+       </item>
+
+      </layout>
+     </widget>
+    </item>
+
+    <item>
+     <widget class="QLabel" name="lblFooter">
+      <property name="text">
+       <string>Track your habits and sleep patterns for a healthier life!</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+        font-style: italic;
+        color: #555555;
+       </string>
+      </property>
+     </widget>
+    </item>
+
+   </layout>
+  </widget>
+
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

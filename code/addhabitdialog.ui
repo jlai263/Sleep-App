@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddHabitDialog</class>
+ <widget class="QDialog" name="AddHabitDialog">
+  <property name="windowTitle">
+   <string>Add / Edit Habit</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="lblHabit">
+       <property name="text">
+        <string>Habit:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="comboHabitName"/>
+     </item>
+
+     <item row="1" column="0">
+      <widget class="QLabel" name="lblFrequency">
+       <property name="text">
+        <string>Frequency:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="comboFrequency"/>
+     </item>
+
+     <item row="2" column="0">
+      <widget class="QLabel" name="lblNotes">
+       <property name="text">
+        <string>Notes:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QTextEdit" name="editNotes"/>
+     </item>
+
+     <item row="3" column="0">
+      <widget class="QLabel" name="lblReminderTime">
+       <property name="text">
+        <string>Reminder Time:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QTimeEdit" name="timeReminder"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Ok|QDialogButtonBox::Cancel</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

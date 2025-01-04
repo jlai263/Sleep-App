@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SleepAnalysisDialog</class>
+ <widget class="QDialog" name="SleepAnalysisDialog">
+  <property name="windowTitle">
+   <string>Sleep Analysis</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="lblAnalysis">
+     <property name="text">
+      <string>Analysis text goes here...</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignTop|Qt::AlignLeft</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnClose">
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
